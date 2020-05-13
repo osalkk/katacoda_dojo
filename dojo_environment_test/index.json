@@ -21,7 +21,8 @@
   "environment": {
     "dashboards": [{"name": "UI Port 80", "port": 80}, {"name": "UI Port 80", "port": 8080}],
     "uilayout": "editor-terminal",
-    "showdashboard": true
+    "showdashboard": true,
+    "showide": true
   },
   "backend": {
     "imageid": "ubuntu1804"
