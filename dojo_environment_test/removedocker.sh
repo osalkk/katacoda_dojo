@@ -1,1 +1,2 @@
-apt-get remove docker.io -y
+apt update -y
+apt remove docker.io -y

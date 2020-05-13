@@ -22,8 +22,7 @@
     "dashboards": [{"name": "UI Port 80", "port": 80}, {"name": "UI Port 80", "port": 8080}],
     "uilayout": "terminal",
     "showide": true,
-    "idePort": 23000,
-    "hideintro": true
+    "idePort": 23000
   },
   "backend": {
     "imageid": "ubuntu"
