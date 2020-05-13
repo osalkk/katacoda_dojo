@@ -11,14 +11,15 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "removedocker.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
+    "dashboards": [{"name": "UI Port 80", "port": 80}, {"name": "UI Port 80", "port": 8080}],
     "uilayout": "editor-terminal",
     "showdashboard": true
   },
