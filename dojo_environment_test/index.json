@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Dojo",
         "text": "step1.md"
       }
     ],
@@ -18,7 +18,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
+    "uilayout": "editor-terminal",
+    "showdashboard": true
   },
   "backend": {
     "imageid": "ubuntu1804"
