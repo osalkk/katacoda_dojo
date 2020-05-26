@@ -1,0 +1,30 @@
+{
+  "title": "K8S Dojo",
+  "description": "K8S Dojo playground",
+  "difficulty": "Beginner",
+  "time": "4 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "K8S Dojo",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "launch.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "dashboards": [{"name": "UI Port 80", "port": 80}, {"name": "UI Port 80", "port": 8080}],
+    "uilayout": "terminal",
+    "showide": true,
+    "idePort": 23000
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
